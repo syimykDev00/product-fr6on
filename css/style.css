@@ -1,0 +1,845 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#header {
+    padding: 20px 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-group {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo h1 {
+    padding-left: 16px;
+    color: #173A56;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.header-navbar a {
+    padding: 0 25px;
+    color: #22343D;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.header-navbar a:hover {
+    color: #22343D;
+}
+
+.btn-one {
+    border-radius: 4px;
+    border: 1px solid #BCD0E5;
+    padding: 10px 22px;
+    background: transparent;
+    color: #173A56;
+    outline: none;
+    cursor: pointer;
+    transition: .4s;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.btn-two {
+    border-radius: 4px;
+    background: #02897A;
+    padding: 10px 22px;
+    border: 2px solid #02897A;
+    outline: none;
+    margin: 0 25px;
+    transition: .4s;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.header-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F3F3F3;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.header-icon ion-icon {
+    color: #02897A;
+    font-size: 20px;
+}
+
+.btn-one:hover {
+    color: white;
+    background: #02897A;
+    transform: scale(1.1);
+}
+
+.btn-two:hover {
+    color: #02897A;
+    background: transparent;
+    transform: scale(1.1);
+}
+
+
+.hero-group h1 {
+    color: #22343D;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.hero-group p {
+    width: 408px;
+    padding: 15px 0 45px 0;
+    color: #22343D;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.hero-buttons button {
+    padding: 15px 41px;
+    border-radius: 4px;
+    background: #02897A;
+    border: 2px solid #02897A;
+    outline: none;
+    cursor: pointer;
+    transition: .4s;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.hero-buttons button:hover {
+    color: #02897A;
+    background: transparent;
+    transform: scale(1.1);
+}
+
+.hero-buttons a ion-icon {
+    color: #02897A;
+    padding: 0 8px 0 30px;
+    font-size: 25px;
+}
+
+.hero-buttons a h3 {
+    color: #02897A;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration-line: underline ;
+}
+
+.hero-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.hero-buttons a {
+    display: flex;
+    align-items: center;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#product {
+    padding: 50px 0;
+}
+
+.product h1 {
+    width: 499px;
+    margin: 0 auto;
+    color: #22343D;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.product-icon {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 19px;
+    background: #02897A;
+}
+
+.product-block h3 {
+    padding: 30px 0 13px 0;
+    color: #22343D;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.product-block p {
+    width: 210px;
+    color: #22343D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.product-icon-two {
+    border-radius: 19px;
+    background: #4D8DFF;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-icon-three {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 19px;
+    background: #740A76;
+}
+
+.product-icon-four {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 19px;
+    background: #F03E3D;
+}
+
+.product-general {
+    padding-top: 66px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product button {
+    border: 2px solid #02897A;
+    outline: none;
+    cursor: pointer;
+    border-radius: 4px;
+    background: #02897A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px auto 0 auto;
+    padding: 15px 32px;
+    transition: .4s;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.product button:hover {
+    color: #02897A;
+    background: transparent;
+    transform: scale(1.1);
+}
+
+#management {
+    padding: 50px 0;
+}
+
+.management-text h3 {
+    color: #22343D;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.management-text h1 {
+    color: #22343D;
+    font-size: 32px;
+    font-weight: 700;
+    padding: 8px 0 23px 0;
+}
+
+.management-text h3 {
+    padding: 30px 0 12px 0;
+    color: #22343D;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.management-text p {
+    width: 426px;
+    color: #22343D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.management {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#customer {
+    padding: 50px 0;
+}
+
+.customer-group h4 {
+    color: #22343D;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.customer-group h1 {
+    padding: 8px 0 23px 0;
+    color: #22343D;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.customer-group p {
+    padding-bottom: 30px;
+    width: 446px;
+    color: #22343D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.customer-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 19px;
+    background: #FF9900;
+}
+
+.customer-icon ion-icon {
+    color: white;
+    font-size: 20px;
+}
+
+.icon-general h6 {
+    padding: 0 0 0 30px;
+    width: 285px;
+    color: #22343D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.icon-general {
+    padding-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.customer-icon-two {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 19px;
+    background: #F03E3D;
+}
+
+.customer-icon-two ion-icon {
+    color: white;
+    font-size: 20px;
+}
+
+.customer-icon-three {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 19px;
+    background: #4D8DFF;
+}
+
+.customer-icon-three ion-icon {
+    color: white;
+    font-size: 20px;
+}
+
+.customer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#collobarative {
+    padding: 50px 0;
+}
+
+.collobarative-text h3 {
+    color: #22343D;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.collobarative-text h1 {
+    padding: 8px 0 23px 0;
+    color: #22343D;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.collobarative-text p {
+    padding-bottom: 30px;
+    width: 406px;
+    color: #22343D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.collobarative-text h4 {
+    color: #22343D;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.collobarative-text h6 {
+    padding: 12px 0 25px 0;
+    width: 406px;
+    color: #22343D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.collobarative {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#process {
+    background: url("../img/customer-bg.png") no-repeat center/cover;
+    height: 80vh;
+}
+
+.process {
+    padding: 50px 0;
+}
+
+.process h1 {
+    color: #22343D;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.process p {
+    padding: 16px 0 45px 0;
+    width: 542px;
+    margin: 0 auto;
+    color: #22343D;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.image-text {
+    margin: 0 16px;
+    width: 274px;
+    height: 53px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 26.5px;
+    background: #FFF;
+    box-shadow: 0px 2px 15px 0px rgba(23, 58, 86, 0.10);
+}
+
+.image-text h4 {
+    color: #2F281E;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.process-image {
+    display: flex;
+    align-items: center;
+}
+
+.process-general {
+    padding-bottom: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.process-general-two {
+    padding-bottom: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.process button {
+    border-radius: 4px;
+    background: #02897A;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border: 2px solid #02897A;
+    outline: none;
+    cursor: pointer;
+    transition: .4s;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.process button:hover {
+    color: #02897A;
+    background: transparent;
+    transform: scale(1.1);
+}
+
+#contents {
+    padding: 100px 0;
+}
+
+.contents h1 {
+    color: #22343D;
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.contents p {
+    color: #22343D;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px 0 33px 0;
+}
+
+.contents-block {
+    width: 348px;
+    border: 2px solid black;
+    height: 359px;
+    border-radius: 8px;
+    background: #FFF;
+}
+
+.contents-block h4 {
+    padding: 24px 0 12px 24px;
+    color: #22343D;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.contents-block h4 span {
+    color: black;
+    font-weight: 600;
+}
+
+.contents-block h3 {
+    padding-left: 24px;
+    width: 294px;
+    color: #22343D;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    object-fit: cover;
+}
+
+#price {
+    padding: 50px 0;
+}
+
+.price h1 {
+    text-align: center;
+    color: #22343D;
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.price p {
+    text-align: center;
+    padding: 8px 0 50px 0;
+    color: #22343D;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.price-block {
+    width: 322.649px;
+    height: 456px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: .4s;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
+}
+
+.price-block h2 {
+    color: #22343D;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.price-block h3 {
+    padding: 8px 0 16px 0;
+    color: #22343D;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.price-title {
+    padding-bottom: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.price-title h4 {
+    color: #02897A;
+    text-align: center;
+    font-size: 76px;
+    font-weight: 700;
+    padding-right: 8px;
+}
+
+.price-title div h5 {
+    padding-bottom: 4px;
+    color: #02897A;
+    font-family: Inter, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.price-title div h6 {
+    color: #AFAFAF;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.block-h4 {
+    padding: 0 0 16px 0;
+    color: #22343D;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.price-block button {
+    padding: 11px 18px;
+    border-radius: 8px;
+    background: #02897A;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: .4s;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.price-general {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price-block:hover {
+    background: #02897A;
+    transform: scale(1.1);
+}
+
+.price-block:hover > h2,
+.price-block:hover > h3,
+.price-block:hover > h5 {
+    color: white;
+}
+
+.price-block:hover > button {
+    color: #02897A;
+    background: #FFF;
+}
+
+.price-block:hover > .price-title div h5,
+.price-block:hover > .price-title div h6 {
+    color: white;
+}
+
+.price-block:hover > h4 {
+    color: white;
+}
+
+.price-block:hover > .price-title h4 {
+    color: white;
+}
+
+#clients {
+    padding: 50px 0;
+}
+
+.clients h1 {
+    color: #22343D;
+    text-align: center;
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.clients p {
+    color: #22343D;
+    padding: 8px 0 50px 0;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.client-general {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.clients-block {
+    width: 300px;
+    height: 216px;
+    padding: 28px 0 0 28px;
+    border-radius: 5px;
+    border: 1px solid #DEDEDE;
+}
+
+.clients-icon ion-icon {
+    color: #F3CD03;
+    font-size: 20px;
+}
+
+.clients-block h6 {
+    width: 255px;
+    padding: 16px 0;
+    color: #737373;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.client-title {
+    display: flex;
+    align-items: center;
+}
+
+.client-title div {
+    padding-left: 14px;
+}
+
+.client-title div h3 {
+    padding-bottom: 5px;
+    color: #02897A;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.client-title div h4 {
+    color: #252B42;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#join {
+    padding: 50px 0;
+}
+
+.join {
+    width: 968px;
+    height: 345px;
+    /*padding: 50px 0 0 50px;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 32px;
+    margin: 0 auto;
+    background: #02897A;
+}
+
+.join-text h1 {
+    width: 480px;
+    padding-left: 50px;
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 151.4%;
+}
+
+.join-text h2 {
+    color: #FFF;
+    padding: 0 0 50px 50px;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.join-text button {
+    border-radius: 8px;
+    background: #FFF;
+    padding: 13px 35px;
+    border: none;
+    margin-left: 50px;
+    outline: none;
+    cursor: pointer;
+    color: #02897A;
+    font-size: 20px;
+    font-weight: 600;
+}
