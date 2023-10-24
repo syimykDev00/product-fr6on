@@ -800,7 +800,7 @@ body {
 }
 
 #join {
-    padding: 50px 0;
+    padding: 100px 0;
 }
 
 .join {
@@ -842,4 +842,88 @@ body {
     color: #02897A;
     font-size: 20px;
     font-weight: 600;
+}
+
+.footer-general {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.footer-icons {
+    padding-top: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.iconic {
+    margin: 0 16px 0 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #EDFFFC;
+}
+
+.iconic ion-icon {
+    color: #02897A;
+    font-size: 25px;
+}
+
+.footer-navbar {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-navbar h3 {
+    padding-bottom: 15px;
+    color: #22343D;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.footer-navbar a {
+    padding-bottom: 15px;
+    color: #22343D;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+.footer-input h3 {
+    width: 260px;
+    color: #22343D;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.footer-input input {
+    margin: 34px 0 21px 0;
+    width: 325px;
+    height: 48px;
+    border-radius: 4px;
+    border: 1px solid #BCD0E5;
+    background: #FFF;
+}
+
+.footer-button button {
+    border-radius: 4px;
+    background: #02897A;
+    padding: 8px 15px;
+    border: none;
+    outline: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.footer p {
+    text-align: center;
+    padding-top: 34px;
+    color: #22343D;
+    font-size: 16px;
+    font-weight: 400;
 }
