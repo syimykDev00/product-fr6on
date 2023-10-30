@@ -1,0 +1,526 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#header {
+    padding: 20px 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-group {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo h1 {
+    padding-left: 16px;
+    color: #173A56;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.header-navbar a {
+    padding: 0 25px;
+    color: #22343D;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.header-navbar a:hover {
+    color: #22343D;
+}
+
+.btn-one {
+    border-radius: 4px;
+    border: 1px solid #BCD0E5;
+    padding: 10px 22px;
+    background: transparent;
+    color: #173A56;
+    outline: none;
+    cursor: pointer;
+    transition: .4s;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.btn-two {
+    border-radius: 4px;
+    background: #02897A;
+    padding: 10px 22px;
+    border: 2px solid #02897A;
+    outline: none;
+    margin: 0 25px;
+    transition: .4s;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.header-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F3F3F3;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.header-icon ion-icon {
+    color: #02897A;
+    font-size: 20px;
+}
+
+.btn-one:hover {
+    color: white;
+    background: #02897A;
+    transform: scale(1.1);
+}
+
+.btn-two:hover {
+    color: #02897A;
+    background: transparent;
+    transform: scale(1.1);
+}
+
+#client {
+    padding: 100px 0;
+}
+
+.client h1 {
+    text-align: center;
+    color: #22343D;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.client-logos {
+    display: flex;
+    padding-top: 70px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#choose {
+    background: #F5F5F5;
+}
+
+.choose h1 {
+    padding: 24px 0 54px 0;
+    color: #22343D;
+    text-align: center;
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.choose-general {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.choose-block {
+    width: 350px;
+    height: 305px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: 1px solid #DEDEDE;
+}
+
+.choose-icon {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 19px;
+    background: #02897A;
+}
+
+.choose-icon ion-icon {
+    font-size: 25px;
+    color: white;
+}
+
+.choose-block h4 {
+    color: #22343D;
+    text-align: center;
+    padding: 32px 0 16px 0;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.choose-block h6 {
+    width: 235px;
+    color: #22343D;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.choose-icon-two {
+    border-radius: 19px;
+    background: #4D8DFF;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choose-icon-two ion-icon {
+    color: white;
+    font-size: 25px;
+}
+
+.choose-icon-three {
+    border-radius: 19px;
+    background: #F03E3D;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choose-icon-three ion-icon {
+    color: white;
+    font-size: 25px;
+}
+
+#work {
+    padding: 100px 0;
+}
+
+.work h1 {
+    padding-bottom: 73px;
+    color: #22343D;
+    text-align: center;
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.work-general {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.work-text h3 {
+    color: #22343D;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.work-text h4 {
+    padding: 16px 0;
+    color: #22343D;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.work-text h6 {
+    width: 398px;
+    color: #22343D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.fully {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fully-text h3 {
+    color: #22343D;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.fully-text h4 {
+    padding: 16px 0;
+    color: #22343D;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.fully-text h6 {
+    width: 388px;
+    color: #22343D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+#completion {
+    padding: 100px 0;
+}
+
+.completion-general {
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.completion-text h3 {
+    color: #22343D;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.completion-text h4 {
+    padding: 16px 0;
+    color: #22343D;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.completion-text h6 {
+    width: 388px;
+    color: #22343D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.completion button {
+    border-radius: 8px;
+    background: #02897A;
+    padding: 11px 18px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#thousand {
+    background: linear-gradient(180deg, #F5F5F5 0%, rgba(245, 245, 245, 0.00) 100%);
+}
+
+.thousand h1 {
+    width: 537px;
+    padding: 35px 0 93px 0;
+    color: #22343D;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.thousand-general {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.thousand-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.thousand-icon {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    background: #FFEFEF;
+}
+
+.thousand-block h2 {
+    padding: 27px 0 16px 0;
+    color: #000;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.thousand-block h4 {
+    padding-bottom: 12px;
+    color: #22343D;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.thousand-block h5 {
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.thousand-icon-two {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    background:  #F3F3F3;
+}
+
+#join {
+    padding: 100px 0;
+}
+
+.join {
+    width: 968px;
+    height: 345px;
+    /*padding: 50px 0 0 50px;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 32px;
+    margin: 0 auto;
+    background: #02897A;
+}
+
+.join-text h1 {
+    width: 480px;
+    padding-left: 50px;
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 151.4%;
+}
+
+.join-text h2 {
+    color: #FFF;
+    padding: 0 0 50px 50px;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.join-text button {
+    border-radius: 8px;
+    background: #FFF;
+    padding: 13px 35px;
+    border: none;
+    margin-left: 50px;
+    outline: none;
+    cursor: pointer;
+    color: #02897A;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer-general {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.footer-icons {
+    padding-top: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.iconic {
+    margin: 0 16px 0 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #EDFFFC;
+}
+
+.iconic ion-icon {
+    color: #02897A;
+    font-size: 25px;
+}
+
+.footer-navbar {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-navbar h3 {
+    padding-bottom: 15px;
+    color: #22343D;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.footer-navbar a {
+    padding-bottom: 15px;
+    color: #22343D;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+.footer-input h3 {
+    width: 260px;
+    color: #22343D;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.footer-input input {
+    margin: 34px 0 21px 0;
+    width: 325px;
+    height: 48px;
+    border-radius: 4px;
+    border: 1px solid #BCD0E5;
+    background: #FFF;
+}
+
+.footer-button button {
+    border-radius: 4px;
+    background: #02897A;
+    padding: 8px 15px;
+    border: none;
+    outline: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.footer p {
+    text-align: center;
+    padding-top: 34px;
+    color: #22343D;
+    font-size: 16px;
+    font-weight: 400;
+}
